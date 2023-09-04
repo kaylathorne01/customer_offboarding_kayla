@@ -2,3 +2,6 @@
 Script to remove DoiT roles, policies, and identity providers when offboarding customers
 
 Run script in cloudshell of customer's MPA.
+
+
+this is only a test
