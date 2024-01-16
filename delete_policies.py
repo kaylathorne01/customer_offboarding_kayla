@@ -14,7 +14,8 @@ def execute(account_id):
     policies_to_delete = [
         f'arn:aws:iam::{account_id}:policy/CloudHealth',
         f'arn:aws:iam::{account_id}:policy/doitintl_cmp',
-        f'arn:aws:iam::{account_id}:policy/AWSStrategic'
+        f'arn:aws:iam::{account_id}:policy/AWSStrategic',
+        f'arn:aws:iam::{account_id}:policy/AccessToCostExplorer'
         # Add more policy ARNs here...
     ]
 
